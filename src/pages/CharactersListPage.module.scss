@@ -1,0 +1,52 @@
+@import "../layout/colors.scss";
+
+.tableHeaderText {
+    color: $color-dark-smoke;
+    width: 100%;
+    font-size: 14px;
+    padding: 16px;
+}
+
+.tableHeaderContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.tableContainer {
+    margin-top: 24px;
+}
+
+.characterColunm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 33%;
+}
+
+.characterImage {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 24px;
+}
+
+.characterName {
+    color: $color-dark-smoke;
+}
+
+.columnText {
+    color: $color-dark-smoke;
+}
+
+.columnContainer {
+    width: 33%;
+    word-wrap: break-word;
+}
+
+.loadingIcon {
+    text-align: center;
+    color: $color-dark-smoke;
+    margin-top: 60px;
+}

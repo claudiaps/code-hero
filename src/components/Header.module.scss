@@ -1,0 +1,50 @@
+@import "../layout/colors.scss";
+
+.headerContainer {
+    background-color: $color-white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.logoContainer {
+    max-width: 96px;
+    max-height: 80px;
+}
+
+.textContainer {
+    color: $color-dark-smoke;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: 16px;
+}
+
+.avatarContainer {
+    background-color: $color-snow;
+    color: $color-dark-smoke;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+div.avatarContainer:hover {
+    background-color: $color-dark-smoke;
+    color: $color-snow;
+}
+
+.rightContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .textContainer {
+        font-size: 12px;
+        flex-direction: column;
+    }
+}

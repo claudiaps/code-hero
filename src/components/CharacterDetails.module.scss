@@ -1,0 +1,28 @@
+@import "../layout/colors.scss";
+
+.container {
+    background-color: $color-dark-smoke;
+    opacity: 0.85;
+    color: $color-white;
+    padding: 0px 4px 4px;
+    max-width: 300px;
+    border-radius: 4px;
+    word-wrap: break-word;
+}
+
+.comicText {
+    color: $color-white;
+}
+
+.comicImage {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+.comicItem {
+    display: flex;
+    align-items: center;
+}

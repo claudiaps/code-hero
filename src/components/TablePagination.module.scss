@@ -1,0 +1,42 @@
+@import "../layout/colors.scss";
+
+.container {
+    text-align: center;
+    padding: 16px;
+}
+
+.pageButton {
+    width: 32px;
+    height: 32px;
+    box-shadow: none;
+    border-radius: 4px;
+    border-width: 1px;
+    margin: 8px;
+    background-color: $color-snow;
+    border-color: $color-dark-snow;
+    color: $color-dark-smoke;
+}
+
+button.pageButton:hover {
+    background-color: $color-light-blue;
+    color: $color-white;
+}
+
+.pageButtonSelected {
+    background-color: $color-dark-blue;
+    border-color: $color-dark-blue;
+    color: $color-white;
+}
+
+.navigateButtons {
+    color: $color-dark-smoke;
+    font-weight: bold;
+    border-width: 0px;
+    background-color: unset;
+    padding: 6px;
+    letter-spacing: -3px;
+}
+
+button.navigateButtons:hover {
+    color: $color-dark-blue;
+}

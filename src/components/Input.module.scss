@@ -1,0 +1,26 @@
+@import "../layout/colors.scss";
+
+.label {
+    color: $color-dark-smoke;
+    font-weight: bold;
+}
+
+.input {
+    border-width: 0;
+    height: 28px;
+    padding: 12px;
+    font-style: italic;
+    flex: 1;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: row;
+    max-width: 327px;
+}
+
+@media  (max-width: 400px) {
+    .label {
+        text-align: center;
+    }
+}

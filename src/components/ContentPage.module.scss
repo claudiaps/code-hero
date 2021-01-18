@@ -1,0 +1,29 @@
+@import "../layout/colors.scss";
+
+.mainContainer {
+    background-color: $color-dark-snow;
+    padding: 40px 90px 32px;
+    flex: 1;
+}
+
+.loadingContainer {
+    background-color: $color-smoke;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+}
+
+
+.title {
+    color: $color-dark-smoke;
+}
+
+@media (max-width: 600px) {
+    .mainContainer {
+        padding: 24px 40px;
+    }
+    .title {
+        font-size: 24px;
+        text-align: center;
+    }
+}

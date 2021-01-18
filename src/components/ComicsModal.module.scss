@@ -1,0 +1,54 @@
+@import "../layout/colors.scss";
+
+.container {
+    position: absolute;
+    z-index: 1;
+    width: 90%;
+    height: auto;
+    background-color: $color-dark-smoke;
+    opacity: 0.95;
+    padding: 8px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 14px -2px $color-dark-snow;
+}
+
+.closeButton {
+    color: $color-dark-blue;
+    border-width: 0px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.title {
+    color: $color-white;
+}
+
+.comicsList {
+    margin: 8px 0px;
+}
+
+.comicText {
+    color: $color-white;
+}
+
+.comicImage {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+.comicItem {
+    display: flex;
+    align-items: center;
+}
+
+.loadingIcon {
+    text-align: center;
+    color: $color-white;
+    margin-bottom: 16px;
+}
